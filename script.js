@@ -1,4 +1,3 @@
-// script.js
 const fadeIns = document.querySelectorAll('.fade-in');
 
 const observer = new IntersectionObserver((entries) => {
@@ -7,8 +6,6 @@ const observer = new IntersectionObserver((entries) => {
       entry.target.classList.add('visible');
     }
   });
-}, {
-  threshold: 0.1
-});
+}, { threshold: 0.1 });
 
 fadeIns.forEach(el => observer.observe(el));

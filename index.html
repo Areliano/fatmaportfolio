@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Fatma Wanjiku Hussein | Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header class="fade-in">
@@ -23,17 +23,22 @@
     </nav>
   </header>
 
-  <section id="home" class="fade-in">
+  <section id="home" class="fade-in hero">
     <div class="intro">
       <img src="fatma.jpg" alt="Fatma Wanjiku Hussein" class="profile-pic">
-      <h2>Hello, I’m Fatma Wanjiku Hussein</h2>
-      <p>A cybersecurity enthusiast and web developer passionate about secure, modern systems.</p>
+      <h2>Hello, I’m <span>Fatma Wanjiku Hussein</span></h2>
+      <p class="typing">Cybersecurity Enthusiast | Developer | Tech Lover</p>
+      <div class="social-icons">
+        <a href="https://github.com/Areliano" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/fatma-hussein-7a584421a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/_.african_wanjiku/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
   </section>
 
   <section id="about" class="fade-in">
     <h2>About Me</h2>
-    <p>I'm a results-driven ICT professional with a passion for technology, secure systems, and clean web design. With a background in Business Information Technology and hands-on experience in cybersecurity, IT support, and backend development, I enjoy building and securing web-based solutions.</p>
+    <p>I’m a dynamic ICT professional with a strong foundation in Business Information Technology. My passion lies in building secure, user-centric web solutions. I thrive on tackling technical challenges and continuously expanding my knowledge in cybersecurity and development.</p>
     <a href="Fatma_Wanjiku_Hussein_CV.pdf" download class="btn">Download CV</a>
   </section>
 
@@ -41,54 +46,82 @@
     <h2>My Projects</h2>
     <div class="project-list">
       <div class="project">
+        <img src="clips-styles.png" alt="Clips & Styles website preview">
         <h3>Clips & Styles</h3>
-        <p>A modern salon website built with React and Tailwind CSS.</p>
-        <a href="https://clips-and-styles-website-ljo2n602y.vercel.app" target="_blank">View Project</a>
+        <p>Salon website built with React and Tailwind CSS.</p>
+        <a href="https://clips-and-styles-website-ljo2n602y.vercel.app" target="_blank" class="btn">View Website</a>
       </div>
       <div class="project">
+        <img src="halima-portfolio.png" alt="Makeup artist portfolio preview">
         <h3>Halima Hussein Portfolio</h3>
-        <p>Makeup artist portfolio with clean, responsive design.</p>
-        <a href="https://areliano.github.io/halima-hussein/" target="_blank">View Project</a>
+        <p>Clean portfolio for a makeup artist.</p>
+        <a href="https://areliano.github.io/halima-hussein/" target="_blank" class="btn">View Website</a>
       </div>
       <div class="project">
+        <img src="weather-app.png" alt="Weather app preview">
         <h3>Weather App</h3>
-        <p>Displays real-time weather data for any city.</p>
-        <a href="https://areliano.github.io/simple-weather-app/" target="_blank">View Project</a>
+        <p>Live weather data for any city, built with JavaScript.</p>
+        <a href="https://areliano.github.io/simple-weather-app/" target="_blank" class="btn">View Website</a>
       </div>
       <div class="project">
-        <h3>Flask To-Do App</h3>
-        <p>Basic CRUD to-do application using Flask.</p>
-        <a href="https://2d10e54f-6979-4bec-bdf7-feb1d2050c7e-00-s48jwsxl5wfz.worf.replit.dev" target="_blank">View Project</a>
+        <img src="todo-app.png" alt="To-do app preview">
+        <h3>To-Do App</h3>
+        <p>Flask-based to-do list application with CRUD functionality.</p>
+        <a href="https://2d10e54f-6979-4bec-bdf7-feb1d2050c7e-00-s48jwsxl5wfz.worf.replit.dev" target="_blank" class="btn">View Website</a>
       </div>
     </div>
   </section>
+  
 
   <section id="services" class="fade-in">
     <h2>Services I Offer</h2>
     <ul>
-      <li>Web Development (Frontend & Backend)</li>
-      <li>Cybersecurity Assessments & Basic Penetration Testing</li>
-      <li>IT Support & Troubleshooting</li>
-      <li>Technical Documentation & Editing</li>
+      <li>Full Stack Web Development</li>
+      <li>Cybersecurity Audits & Reporting</li>
+      <li>IT Helpdesk & System Support</li>
+      <li>Technical Documentation & Digital Assistance</li>
     </ul>
   </section>
 
   <section id="certifications" class="fade-in">
     <h2>My Certifications</h2>
-    <ul>
-      <li>Google Cybersecurity Specialization (2025)</li>
-      <li>Security Analyst Training, CyberShujaa (2024)</li>
-      <li>Certificate in Security Analysis (2024)</li>
-      <li>Full Stack Web Development, eMobilis (2024)</li>
-      <li>Web Development, Tech4Dev (2024)</li>
-      <li>Google IT Support Certificate (2022)</li>
-    </ul>
+    <div class="cert-grid">
+      <div class="cert-item">
+        <img src="cybersecurity.jpg" alt="Google Cybersecurity Specialization">
+        <p><strong>Google Cybersecurity Specialization</strong><br>(2025)</p>
+      </div>
+      <div class="cert-item">
+        <img src="shujaa.jpg" alt="CyberShujaa Security Analyst">
+        <p><strong>Security Analyst Training, CyberShujaa</strong><br>(2024)</p>
+      </div>
+      <div class="cert-item">
+        <img src="security-analysis.jpg" alt="Security Analysis Certificate">
+        <p><strong>Certificate in Security Analysis</strong><br>(2024)</p>
+      </div>
+      <div class="cert-item">
+        <img src="fullstack.jpg" alt="Full Stack Web Development - eMobilis">
+        <p><strong>Full Stack Web Development, eMobilis</strong><br>(2024)</p>
+      </div>
+      <div class="cert-item">
+        <img src="tech4dev.jpg" alt="Tech4Dev Web Development">
+        <p><strong>Web Development, Tech4Dev</strong><br>(2024)</p>
+      </div>
+      <div class="cert-item">
+        <img src="it-support.jpg" alt="Google IT Support Certificate">
+        <p><strong>Google IT Support Certificate</strong><br>(2022)</p>
+      </div>
+    </div>
   </section>
+  
 
   <section id="contact" class="fade-in">
     <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:fatmahussein355@gmail.com">fatmahussein355@gmail.com</a></p>
-    <p>Phone: <a href="tel:+254792535807">+254 792 535 807</a></p>
+    <form action="https://formsubmit.co/fatmahussein355@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
   </section>
 
   <footer>
