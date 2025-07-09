@@ -46,11 +46,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.hero {
-  background: linear-gradient(to bottom, #f0fdfa, #ffffff);
-  padding: 3rem 2rem;
-  text-align: center;
-}
 
 .profile-pic {
   width: 180px;
@@ -71,26 +66,70 @@ nav a:hover {
   font-weight: 700;
 }
 
-.typing {
-  color: #007f7f;
-  font-weight: bold;
+.hero {
+  background: linear-gradient(to bottom right, #f0fdfa, #ffffff);
+  padding: 5rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e0f7f5;
+}
+
+.hero-title {
   font-size: 1.2rem;
+  font-weight: 600;
   margin-top: 0.5rem;
-  height: 1.5rem;
+  color: #007f7f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.typing {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #004f4f;
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #007f7f;
-  animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+  animation: typing 4s steps(40, end), blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { width: 0; }
+  to { width: 100%; }
 }
 
 @keyframes blink {
-  50% { border-color: transparent }
+  50% { border-color: transparent; }
 }
+
+
+.about-section {
+  font-size: 1.1rem;
+  color: #333;
+  background-color: #fdfefe;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 127, 127, 0.08);
+  margin-top: 2rem;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #007f7f;
+}
+
+.about-content p {
+  margin-bottom: 1.2rem;
+  line-height: 1.8;
+}
+
+.about-content strong {
+  color: #005f5f;
+  font-weight: 600;
+}
+
 
 .social-icons a {
   margin: 0 10px;
