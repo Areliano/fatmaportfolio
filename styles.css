@@ -425,3 +425,64 @@ form button:hover {
 .cert-item strong {
   color: #007f7f;
 }
+
+
+.graphics-design-section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  background-color: #fdfefe;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 127, 127, 0.08);
+  color: #007f7f;
+  text-align: center;
+}
+
+.graphics-design-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.graphics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.graphic-item {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 127, 127, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.graphic-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 127, 127, 0.15);
+}
+
+.graphic-item img {
+  width: 100%;
+  max-height: 600px;  /* or any max height you prefer */
+  height: auto;
+  object-fit: contain;
+  border-bottom: 1px solid #b2dfdb;
+  display: block;
+  border-radius: 12px 12px 0 0;
+}
+
+
+
+.graphic-item p {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #004f4f;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  .graphics-grid {
+    grid-template-columns: 1fr;
+  }
+}
