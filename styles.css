@@ -90,7 +90,7 @@ nav a:hover {
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #007f7f;
-  animation: typing 4s steps(40, end), blink 0.75s step-end infinite;
+  animation: typing 4s steps(60, end), blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
