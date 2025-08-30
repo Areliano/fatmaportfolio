@@ -86,11 +86,12 @@ nav a:hover {
   margin-top: 1rem;
   font-size: 1.1rem;
   font-weight: 500;
-  color: #004f4f;
-  white-space: nowrap;
-  overflow: hidden;
+  color: hsl(180, 100%, 15%);
+  white-space: normal;
+  overflow: visible;
   border-right: 2px solid #007f7f;
-  animation: typing 4s steps(60, end), blink 0.75s step-end infinite;
+  animation: typing 6s steps(120, end), blink 0.75s step-end infinite;
+
 }
 
 @keyframes typing {
